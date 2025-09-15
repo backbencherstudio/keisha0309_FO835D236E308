@@ -15,9 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Scotts Transportation.",
   description: "Scotts Transportation.",
-  icons: {
-    icon: "/image/navImage.png", 
-  },
 };
 
 export default function RootLayout({
@@ -28,7 +25,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* ✅ Favicon */}
         <link rel="icon" href="/image/navImage.png" />
       </head>
       <body
