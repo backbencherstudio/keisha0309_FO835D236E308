@@ -15,9 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Scotts Transportation.",
   description: "Scotts Transportation.",
-  icons: [
-    { url: "/image/navImage.png", type: "image/png" }
-  ],
+  icons: "./image/navImage.png",
 };
 
 export default function RootLayout({
