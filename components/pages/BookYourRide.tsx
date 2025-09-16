@@ -4,6 +4,7 @@ import Button from "../reusable/Button";
 export default function BookYourRide() {
   return (
     <div
+      id="rideBook"
       className="min-h-screen bg-no-repeat bg-bottom bg-contain py-10 px-4"
       style={{ backgroundImage: "url('/image/Frame.png')" }}
     >
@@ -14,9 +15,9 @@ export default function BookYourRide() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
             Book Your Ride
           </h1>
-          <p className="text-base sm:text-lg text-[#4A4C56]">
+          {/* <p className="text-base sm:text-lg text-[#4A4C56]">
             Add a booking form with fields like
-          </p>
+          </p> */}
         </div>
 
         <form className="space-y-6">

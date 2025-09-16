@@ -5,7 +5,7 @@ import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
 
 const containerStyle = {
   width: "100%",
-  height: "600px", // full viewport height
+  height: "460px", // full viewport height
   borderRadius: "0", // optional: remove rounding for full-screen map
   overflow: "hidden",
 };

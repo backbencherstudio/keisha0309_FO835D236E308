@@ -5,6 +5,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <div
+     id="contact"
       className="h-[600px] bg-no-repeat flex flex-col justify-end"
       style={{
         backgroundImage:
@@ -13,7 +14,7 @@ export default function Footer() {
     >
       <div className="w-full bg-white pt-12 pb-8 px-4  flex flex-col text-center justify-center items-center rounded-t-4xl">
         {/* Logo */}
-        <Image src={logo} alt="img" />
+        <Image src={logo} height={100} width={111} alt="img" />
         <p className="text-lg leading-[160%] pt-8 ">
           Phone number:{" "}
           <span className="text-[#777980] text-lg">(469) 900-9019</span>
@@ -21,7 +22,7 @@ export default function Footer() {
         <p className="text-lg leading-[160%]">
           Email:{" "}
           <span className="text-[#777980] text-lg">
-            stootstransportation@gmail.com
+            scottstransportation@gmail.com
           </span>
         </p>
         <p className="text-lg leading-[160%] pt-6">

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../reusable/Button";
+import Link from "next/link";
 
 export default function Banner() {
   return (
@@ -16,7 +17,9 @@ export default function Banner() {
           fleet offers a unique twist on urban travel — <br /> perfect for
           sightseeing, events, and unforgettable experiences.
         </p>
+        <Link href={'#rideBook'}>
         <Button text="Book Your Ride" />
+        </Link>
       </div>
     </div>
   );

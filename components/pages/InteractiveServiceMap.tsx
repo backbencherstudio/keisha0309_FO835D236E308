@@ -1,6 +1,5 @@
 import React from "react";
 import Map from "../reusable/Map";
-import Button from "../reusable/Button";
 import image1 from "@/public/image/image 3 (1).png";
 import image2 from "@/public/image/image 3 (2).png";
 import image3 from "@/public/image/image 3 (3).png";
@@ -64,14 +63,14 @@ export default function InteractiveServiceMap() {
           </div>
 
           {/* Extra info + button */}
-          <div className="flex items-center gap-3 pt-4">
+          {/* <div className="flex items-center gap-3 pt-4">
             <span className="w-4 h-4 border rounded-full flex items-center justify-center">
               <span className="w-2 h-2 bg-gray-600 rounded-full"></span>
             </span>
             <span className="text-gray-600">Any other service zones</span>
           </div>
 
-          <Button text="Contact Us" />
+          <Button text="Contact Us" /> */}
         </div>
 
         {/* RIGHT SIDE - Map */}

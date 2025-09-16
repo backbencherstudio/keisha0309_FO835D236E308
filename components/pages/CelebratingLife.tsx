@@ -8,6 +8,7 @@ import image6 from "@/public/image/BE50BC95-3583-40A6-8B83-2B35AB9BAF66 (1).png"
 import image7 from "@/public/image/85EE8114-AC7D-4C34-B18C-743A0950B08A.png";
 import Image from "next/image";
 import Button from "../reusable/Button";
+import Link from "next/link";
 
 export default function CelebratingLife() {
   return (
@@ -83,7 +84,9 @@ export default function CelebratingLife() {
               at a time.
             </p>
             <div className="flex justify-center lg:justify-start">
-              <Button text="Contact Us" />
+              <Link href={"#contact"}>
+                <Button text="Contact Us" />
+              </Link>
             </div>
           </div>
         </div>
