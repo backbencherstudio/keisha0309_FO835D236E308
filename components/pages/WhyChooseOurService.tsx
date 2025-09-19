@@ -12,42 +12,42 @@ export default function WhyChooseOurService() {
       id: 1,
       title: "Cruise the City in Comfort & Style",
       description:
-        "Looking for a fun, flexible way to explore the city? Our golf cart fleet offers a unique twist on urban travel — perfect for sightseeing, events, and unforgettable experiences.",
+        "Looking for a fun, flexible way to explore the city? Our golf cart fleet offers a unique twist on urban travel — perfect for sightseeing, events, and unforgettable experiences. ",
       icon: <MapBookIcon />,
     },
     {
       id: 2,
-      title: "Cruise the City in Comfort & Style",
+      title: "Perfect for Any Occasion",
       description:
-        "Looking for a fun, flexible way to explore the city? Our golf cart fleet offers a unique twist on urban travel — perfect for sightseeing, events, and unforgettable experiences.",
+        "From weddings and corporate events to private parties and festivals, our carts add a touch of charm and convenience that guests love. ",
       icon: <EnjoyIcon />,
     },
     {
       id: 3,
-      title: "Cruise the City in Comfort & Style",
+      title: "Safe, Reliable, and Ready to Roll ",
       description:
-        "Looking for a fun, flexible way to explore the city? Our golf cart fleet offers a unique twist on urban travel — perfect for sightseeing, events, and unforgettable experiences.",
+        "Every cart is professionally maintained and safety-inspected, so you can sit back and enjoy the ride with peace of mind. ",
       icon: <SecurityIcon />,
     },
     {
       id: 4,
-      title: "Cruise the City in Comfort & Style",
+      title: "Custom Routes & Local Expertise",
       description:
-        "Looking for a fun, flexible way to explore the city? Our golf cart fleet offers a unique twist on urban travel — perfect for sightseeing, events, and unforgettable experiences.",
+        "Want a personalized tour? We tailor routes to your preferences, and our friendly drivers are full of insider tips to help you discover hidden gems and local favorites. ",
       icon: <WatchIcon />,
     },
     {
       id: 5,
-      title: "Cruise the City in Comfort & Style",
+      title: "Service That Goes the Extra Mile",
       description:
-        "Looking for a fun, flexible way to explore the city? Our golf cart fleet offers a unique twist on urban travel — perfect for sightseeing, events, and unforgettable experiences.",
+        "We’re passionate about creating memorable experiences. Whether you're a first-time visitor or a local looking for a fresh perspective, we make every ride enjoyable and hassle-free.",
       icon: <WatchIcon />,
     },
-  ];
+  ]; 
 
   // Get first 3 cards
   const firstRowCards = serviceFeatures.slice(0, 3);
-  
+
   // Get next 2 cards
   const secondRowCards = serviceFeatures.slice(3, 5);
 

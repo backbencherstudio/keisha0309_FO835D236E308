@@ -38,8 +38,7 @@ export default function Footer() {
       </div>
 
       <div className="w-full bg-[#841315] py-3.5 px-4 text-[#FFF] text-sm">
-        <div className="w-full max-w-[1320px] mx-auto flex justify-between items-center">
-          <p>©2025 National Carts</p>
+        <div className="w-full max-w-[1320px] mx-auto text-center">
           <span>All Rights Reserved</span>
         </div>
       </div>

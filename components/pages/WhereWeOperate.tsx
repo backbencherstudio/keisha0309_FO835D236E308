@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import image from "@/public/image/Rectangle.png";
+import image1 from "@/public/image/Rectangle1.png";
+import image2 from "@/public/image/Rectangle2.png";
+import image3 from "@/public/image/Rectangle3.png";
 import LocationIcon from "@/public/icon/LocationIcon";
 
 export default function WhereWeOperate() {
@@ -17,7 +19,7 @@ export default function WhereWeOperate() {
         "Entertainment District",
         "Entertainment District ",
       ],
-      image: image,
+      image: image1,
     },
     {
       id: 2,
@@ -30,7 +32,7 @@ export default function WhereWeOperate() {
         "Entertainment District",
         "Entertainment District ",
       ],
-      image: image,
+      image: image2,
     },
     {
       id: 3,
@@ -43,7 +45,7 @@ export default function WhereWeOperate() {
         "Entertainment District",
         "Entertainment District ",
       ],
-      image: image,
+      image: image3,
     },
   ];
 
@@ -51,7 +53,7 @@ export default function WhereWeOperate() {
     <div className="w-full max-w-[1320px] mx-auto px-4 py-10 md:py-20 text-center space-y-[32px]">
       <div className="flex flex-col md:flex-row justify-between items-start gap-8">
         <h1 className="flex-1 text-[48px] font-semibold leading-[130%] text-left">
-          Where We Operate
+        Where Do We Operate? 
         </h1>
         <p className="flex-1 text-lg leading-[160%] text-left text-gray-600">
           We proudly serve vibrant neighborhoods across Dallas and Houston,
@@ -82,16 +84,7 @@ export default function WhereWeOperate() {
               <p className="text-gray-700 ">{location.description}</p>
 
               {/* Tags */}
-              <div className="flex flex-wrap gap-2">
-                {location.tags.map((tag, index) => (
-                  <div
-                    key={index}
-                    className="px-3 py-2 text-sm rounded-full border border-[#DFE1E7]"
-                  >
-                    <span className="text-gray-600">{tag}</span>
-                  </div>
-                ))}
-              </div>
+              {/* <d  */}
             </div>
           </div>
         ))}

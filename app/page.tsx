@@ -2,7 +2,8 @@ import Banner from "@/components/pages/Banner";
 import BookYourRide from "@/components/pages/BookYourRide";
 import CelebratingLife from "@/components/pages/CelebratingLife";
 import Footer from "@/components/pages/Footer";
-import InteractiveServiceMap from "@/components/pages/InteractiveServiceMap";
+import LandmarksAndEntertainmentDistricts from "@/components/pages/LandmarksAndEntertainmentDistricts";
+// import InteractiveServiceMap from "@/components/pages/InteractiveServiceMap";
 import Navbar from "@/components/pages/Navbar";
 import WhereWeOperate from "@/components/pages/WhereWeOperate";
 import WhyChooseOurService from "@/components/pages/WhyChooseOurService";
@@ -15,7 +16,8 @@ export default function Home() {
       <Banner />
       <WhyChooseOurService />
       <WhereWeOperate />
-      <InteractiveServiceMap />
+      {/* <InteractiveServiceMap /> */}
+      <LandmarksAndEntertainmentDistricts />
       <BookYourRide />
       <ZeroToleranceDrug />
       <CelebratingLife />
