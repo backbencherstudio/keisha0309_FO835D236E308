@@ -100,9 +100,9 @@ export default function ZeroToleranceDrug() {
               </p>
             </div>
             <div className="flex  gap-2 bg-[#ECEFF3] p-4 rounded-xl">
-            <span className="pt-2">
-              <WifiErrorIcon  className='text-2xl' />
-            </span>
+              <span className="pt-2">
+                <WifiErrorIcon className="text-2xl" />
+              </span>
               <p className="text-[#4A4C56] leading-[160%]">
                 Refusal to comply with testing or a confirmed violation may
                 result in disciplinary action, including termination of the
