@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import image from "@/public/image/ECar.png";
 import Image from "next/image";
@@ -18,10 +19,10 @@ export default function ZeroToleranceDrug() {
               Zero Tolerance Drug & <br /> Alcohol Policy
             </h1>
             <p className="text-[#4A4C56] leading-[160%]">
-              SCOTT TRANSPORTATION maintains a strict zero tolerance policy
-              regarding drug and alcohol use for all vehicle-for-hire drivers.
-              This policy is enforced to ensure the safety of our passengers,
-              drivers, & the communities we serve.
+              Scott's Transportation Co. maintains a strict zero tolerance
+              policy regarding drug and alcohol use for all vehicle-for-hire
+              drivers. This policy is enforced to ensure the safety of our
+              passengers, drivers, & the communities we serve.
             </p>
           </div>
           <div className="border border-[#DFE1E7] rounded-xl">
@@ -98,8 +99,10 @@ export default function ZeroToleranceDrug() {
                 system while working or representing the company.
               </p>
             </div>
-            <div className="flex items-center gap-2 bg-[#ECEFF3] p-4 rounded-xl">
-              <WifiErrorIcon />
+            <div className="flex  gap-2 bg-[#ECEFF3] p-4 rounded-xl">
+            <span className="pt-2">
+              <WifiErrorIcon  className='text-2xl' />
+            </span>
               <p className="text-[#4A4C56] leading-[160%]">
                 Refusal to comply with testing or a confirmed violation may
                 result in disciplinary action, including termination of the
@@ -116,12 +119,11 @@ export default function ZeroToleranceDrug() {
               <DatabaseIcon />
             </div>
             <h1 className="text-2xl font-bold leading-[130%]">
-            Operating Authority’s Rate Information
+              Operating Authority’s Rate Information
             </h1>
           </div>
           <hr className="text-[#DFE1E7]" />
           <div className="bg-[#F8FAFB] pt-[18px] pb-[24px] px-6 rounded-b-xl space-y-3">
-           
             <div>
               <h1 className="font-semibold leading-[160%]">
                 Pricing Information
@@ -131,7 +133,7 @@ export default function ZeroToleranceDrug() {
               <div className="flex-1 space-y-2 bg-[#ECEFF3] p-4 rounded-xl">
                 <h1>Rates</h1>
                 <p className="text-[#4A4C56] leading-[160%]">
-                  1. Free for elderly
+                  1. Free for children
                 </p>
                 <p className="text-[#4A4C56] leading-[160%]">
                   2. Free for elderly

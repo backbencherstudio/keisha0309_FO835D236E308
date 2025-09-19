@@ -11,7 +11,7 @@ export default function WhereWeOperate() {
     {
       id: 1,
       title: "Victory Park – Dallas",
-      address: "31N N Houston St, Dallas, TX 75219, USA",
+      address: "2323 Victory Ave, Dallas, TX 75219",
       description:
         "A modern mix of entertainment, shopping, and dining. Our golf carts make it easy to hop between hotspots and enjoy the scene in style.",
       tags: [
@@ -24,7 +24,7 @@ export default function WhereWeOperate() {
     {
       id: 2,
       title: "Fair Park – Dallas",
-      address: "31N N Houston St, Dallas, TX 75219, USA",
+      address: " 3809 Grand Ave, Dallas, TX 75210",
       description:
         "Home to museums, art installations, and cultural events. With expansive grounds and historic charm, it's the perfect place to cruise comfortably.",
       tags: [
@@ -37,7 +37,7 @@ export default function WhereWeOperate() {
     {
       id: 3,
       title: "Houston Hotspots",
-      address: "31N N Houston St, Dallas, TX 75219, USA",
+      address: "1 NRG Pkwy, Houston, TX 77054",
       description:
         "From downtown districts to scenic neighborhoods, our carts help you explore Houston's best — effortlessly and with a local touch.",
       tags: [
@@ -78,7 +78,7 @@ export default function WhereWeOperate() {
               <p className="flex items-center gap-1">
                 <LocationIcon />
                 <span className="text-[#4A4C56] leading-[160%]">
-                  3111 N Houston St, Dallas, TX 75219, USA
+                 {location.address}
                 </span>
               </p>
               <p className="text-gray-700 ">{location.description}</p>
